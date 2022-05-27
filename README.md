@@ -1,25 +1,25 @@
 # 영화리뷰 게시판 구현
 
 * 기능
-      * 영화 리뷰 등록/삭제
-      * 평점
-      * 페이징처리
-      * 영화 이미지(파일 업로드)
+  * 영화 리뷰 등록/삭제
+  * 평점
+  * 페이징처리
+  * 영화 이미지(파일 업로드)
 
 * 사용
-      * Spring Boot
-      * gradle
-      * JPA
-      * JPQL
-      * Lombok
-      * Ajax
-      * jQuery
-      * thymeleaf
+  * Spring Boot
+  * gradle
+  * JPA
+  * JPQL
+  * Lombok
+  * Ajax
+  * jQuery
+  * thymeleaf
 * ERD
 ![영화리뷰](https://user-images.githubusercontent.com/86938974/170615162-eaf6133b-8cb7-49df-a1f3-1617a35daa62.png)
-      * 영화와 회원은 M:N 관계 이므로 매핑테이블 '리뷰'를 추가해준다. 
-      * 영화와 리뷰는 1:N, 리뷰와 회원은 N:1 관계가 성립한다.
-      * 영화와 영화사진은 1:N 관계를 가진다.
+  * 영화와 회원은 M:N 관계 이므로 매핑테이블 '리뷰'를 추가해준다. 
+  * 영화와 리뷰는 1:N, 리뷰와 회원은 N:1 관계가 성립한다.
+  * 영화와 영화사진은 1:N 관계를 가진다.
 
 
 * build.gradle에 필요한 라이브러리 추가, MariaDB 드라이버와 Thymeleaf 사용
@@ -127,9 +127,9 @@ public class Review extends BaseEntity{
 ```
 * Repository 생성
 ![image](https://user-images.githubusercontent.com/86938974/170616299-aa7d7bfc-e8d0-406e-bc92-0eccce336f85.png)
-      * JPQL 사용한 조인
+  * JPQL 사용한 조인
 
-      * MovieRepository 인터페이스
+  * MovieRepository 인터페이스
 ```
 package org.zerock.mreview.repository;
 
@@ -158,7 +158,7 @@ public interface MovieRepository extends JpaRepository<Movie, Long> {
 }
 
 ```
-      * ReviewRepository 인터페이스
+  * ReviewRepository 인터페이스
 ```
 package org.zerock.mreview.repository;
 
