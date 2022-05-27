@@ -190,6 +190,18 @@ public interface ReviewRepository extends JpaRepository<Review, Long> {
 - member를 삭제시 리뷰도 같이 삭제된다.
 
 * 파일 업로드 처리
+  -----
+* 파일 업로드 설정 application.properties
+```
+spring.servlet.multipart.enabled=true
+spring.servlet.multipart.location=C:\\upload
+spring.servlet.multipart.max-request-size=30MB
+spring.servlet.multipart.max-file-size=10MB
+```
+- UploadController 클래스
+```
+
+```
 
 
       
