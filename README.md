@@ -198,10 +198,22 @@ spring.servlet.multipart.location=C:\\upload
 spring.servlet.multipart.max-request-size=30MB
 spring.servlet.multipart.max-file-size=10MB
 ```
-- UploadController 클래스
-```
+- UploadController, UploadResultDTO 생성
+- 파일 업로드
+![image](https://user-images.githubusercontent.com/86938974/171080145-64c7ae8d-75a1-4f9c-8fbe-ce74528fe73e.png)
 
-```
+* 영화/리뷰 적용
+  -----
+* 영화의 등록과 수정에는 파일 업로드 기능 활용해서 영화 포스터 등을 등록
+* 회원은 기존 회원들이 존재한다고 가정하고 데이터베이스에 존재하는 회원들 이용
+* 회원은 특정한 영화 조회 페이지에서 평점과 자신의 감상을 리뷰로 기록
+* 조회 화면에서 회원은 자신이 기록한 리뷰의 내용 수정/삭제
+
+ 
+
+
+
+
 
 
       
