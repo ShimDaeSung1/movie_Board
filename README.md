@@ -947,6 +947,10 @@ public class ReviewDTO {
 
 ![image](https://user-images.githubusercontent.com/86938974/171577548-2eaa76ec-546e-4b0f-a00e-0bbdaf5e9028.png)
 
+* 이미지 클릭시
+![image](https://user-images.githubusercontent.com/86938974/171580224-a8a3f9c5-796c-4311-b2bd-67a209f570e1.png)
+
+
 * 신세계 영화
 ![image](https://user-images.githubusercontent.com/86938974/171577828-9bf564b5-5473-4d55-86fe-ce915219fd9b.png)
 
